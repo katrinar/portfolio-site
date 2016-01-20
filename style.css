@@ -1,0 +1,80 @@
+
+// css from codecademy
+
+body {
+    
+}
+
+div {
+    border-radius: 5px;
+}
+
+#header {
+    z-index: 1;
+    height: 60px;
+    width: 97.5%;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    background-color: gray;
+    position: fixed;
+}
+
+.location {
+    float: right;
+    top: 0px;
+}
+
+.left {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    width: 10%;
+    height: 400px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-style: bold;
+}
+
+.content {
+    position: relative;
+    float: right;
+    clear: top;
+    margin-top: 50px;
+    width: 88%;
+    height: 400px;
+    margin-bottom: 10px;
+    background-image: url("http://theartmad.com/wp-content/uploads/Light-Grey-Background-Design-2.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 100%;
+}
+
+.sectionhead {
+    font-size: 16px;
+}
+
+.title {
+    font-size: 12px;
+}
+
+li {
+    font-size: 11px;
+}
+
+.date {
+    font-size: 10px;
+    float: right;
+}
+
+.details {
+    float: left;
+}
+
+#footer {
+    height: 50px;
+    background-color: gray;
+    clear: both;
+    position: relative;
+    bottom: 0;
+}
