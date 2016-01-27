@@ -9,7 +9,7 @@ div {
     border-radius: 5px;
 }
 
-#header {
+.header {
     z-index: 1;
     height: 60px;
     width: 97.5%;
@@ -19,9 +19,8 @@ div {
     position: fixed;
 }
 
-.location {
+#location {
     float: right;
-    top: 0px;
 }
 
 .left {
@@ -76,5 +75,6 @@ li {
     background-color: gray;
     clear: both;
     position: relative;
-    bottom: 0;
+    float: bottom;
+    /*bottom: 0;*/
 }
